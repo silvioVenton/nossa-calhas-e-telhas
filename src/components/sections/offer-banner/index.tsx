@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { ArrowRight, Flame } from "lucide-react";
-
+import { company } from "@/data/company";
 import { offer } from "@/data/offer";
 
 export default function OfferBanner() {
@@ -8,7 +8,7 @@ export default function OfferBanner() {
     return null;
   }
 
-  const whatsappUrl = `https://wa.me/5511999999999?text=${encodeURIComponent(
+  const whatsappUrl = `https://wa.me/${company.whatsapp}?text=${encodeURIComponent(
     offer.whatsappMessage
   )}`;
 
