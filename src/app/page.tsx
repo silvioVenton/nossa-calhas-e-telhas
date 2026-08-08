@@ -9,11 +9,13 @@ import Gallery from "@/components/sections/gallery";
 import Testimonials from "@/components/sections/testimonials";
 import FAQ from "@/components/sections/faq";
 import CTA from "@/components/sections/cta";
+import OfferBanner from "../components/sections/offer-banner";
 
 
 export default function Home() {
   return (
     <>
+      <OfferBanner />
       <Hero />
       <Stats />
       <Audience />
