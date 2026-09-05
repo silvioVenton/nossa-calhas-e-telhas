@@ -3,7 +3,7 @@ export const company = {
 
   phone: "(11) 99786-5848",
 
-  whatsapp: "5511947737992",
+  whatsapp: "5511997865848",
 
   email: "nossacalha@gmail.com",
 

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { company } from "@/data/company";
 import {
   CheckCircle,
   MessageCircle,
@@ -43,7 +44,8 @@ export default function Hero() {
             {/* BOTÕES */}
             <div className="mt-8 flex w-full flex-col gap-3 sm:flex-row sm:flex-wrap">
               <a
-                href="https://wa.me/5511999999999"
+                href={`https://wa.me/${company.whatsapp}`}
+                id="whats-hero"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex min-h-[56px] w-full items-center justify-center gap-3 rounded-xl bg-orange-500 px-5 py-4 text-center font-bold text-white transition hover:bg-orange-600 sm:w-auto"

@@ -31,6 +31,7 @@ export default function Header() {
             <a
               href={`https://wa.me/${company.whatsapp}`}
               target="_blank"
+              id="whats-header"
               rel="noopener noreferrer"
               className="flex items-center gap-2 hover:text-green-400 transition-colors"
             >
