@@ -1,7 +1,7 @@
 export const offer = {
   active: true,
 
-  /*badge: "OFERTA ESPECIAL",*/
+  badge: "",
 
   title: "Telha Metálica Trapezoidal",
 
