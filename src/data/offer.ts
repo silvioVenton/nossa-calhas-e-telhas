@@ -1,14 +1,14 @@
 export const offer = {
   active: true,
 
-  badge: "OFERTA ESPECIAL",
+  /*badge: "OFERTA ESPECIAL",*/
 
   title: "Telha Metálica Trapezoidal",
 
   description:
     "Condição especial para sua obra. Consulte medidas, espessuras e disponibilidade.",
 
-  price: "R$34,00",
+  price: "R$35,50",
 
   unit: "Metro",
 
@@ -17,7 +17,7 @@ export const offer = {
   buttonText: "Quero essa oferta",
 
   whatsappMessage:
-    "Olá, vi a oferta da Telha Metálica Trapezoidal no site e gostaria de saber as condições.",
+    "Olá, vi a Telha Metálica Trapezoidal no site e gostaria de saber as condições.",
 
-  validity: "Consulte a validade da oferta",
+  validity: "Consulte condições",
 };

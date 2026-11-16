@@ -1,7 +1,7 @@
 export const company = {
   name: "Nossa Calhas & Telhas",
 
-  phone: "(11) 99786-5848",
+  phone: "(11) 4596-1448 / 4596-1270",
 
   whatsapp: "5511997865848",
 
