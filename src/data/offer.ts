@@ -14,7 +14,7 @@ export const offer = {
 
   image: "/images/products/trapezoidal.webp",
 
-  buttonText: "Quero essa oferta",
+  buttonText: "Quero orçamento",
 
   whatsappMessage:
     "Olá, vi a Telha Metálica Trapezoidal no site e gostaria de saber as condições.",
